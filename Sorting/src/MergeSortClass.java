@@ -87,9 +87,9 @@ public static void main(String ...args)
 	int inputarr[] = {4,7,3,8,2,5,9,6};
 	mergeSort(inputarr);
 	
-	for(int k=0; k<inputarr.length;k++ )
+	for(int sorted:  inputarr)
 	{
-		System.out.println(inputarr[k]);
+		System.out.println(sorted);
 	}
 	
 	
