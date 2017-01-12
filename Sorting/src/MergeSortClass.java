@@ -3,8 +3,6 @@ public class MergeSortClass {
 
 	public static int [] mergeSort(int inputarr[])
 	{
-		
-		
 		//find input size
 		int inputArraySize = inputarr.length;
 		
@@ -91,8 +89,6 @@ public static void main(String ...args)
 	{
 		System.out.println(sorted);
 	}
-	
-	
 }
 
 }
