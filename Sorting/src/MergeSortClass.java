@@ -79,16 +79,18 @@ public static void merge(int []left, int []right,int []originalArr)
 	}
 	
 }
-	
+
 public static void main(String ...args)
 {
 	int inputarr[] = {4,7,3,8,2,5,9,6};
 	mergeSort(inputarr);
 	
-	for(int sorted:  inputarr)
+	for(int k=0; k<inputarr.length;k++ )
 	{
-		System.out.println(sorted);
+		System.out.println(inputarr[k]);
 	}
+	
+
 }
 
 }
